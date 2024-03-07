@@ -5,6 +5,7 @@ void main(){
   name = true;
   // name이 dynamic type이기때문에 오류가 발생하지 않는 것이다.
   // flutter등 웹에서 어떤 데이타 어떻게 들어올지 몰라서 이리 사용된다고는 함..
+  // 어떤 타입이 올지 모르기 때문에 조심해서 사용해야 한다.
 
   dynamic name2; // 다른 형태의 dynamic type. 위와 동일하다.
   
