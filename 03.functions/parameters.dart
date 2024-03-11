@@ -20,7 +20,7 @@ String introduce3({
 }
 
 void main() {
-  print(introduce('kan', 40, 'korea')); // 일반적인 방법
+  print(introduce('kan', 40, 'korea')); // 일반적인 방법 (positional parameter)
   /*
   print(introduce(
     age:40,
