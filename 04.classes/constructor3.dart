@@ -24,6 +24,7 @@ class Player {
 
   Player.createJapan({required this.name, required this.age, this.country = 'japan', this.height = 160});
   // 이렇게 단축화 시키는 방법도 있다. nameed parameter에서 사용한다.
+  // nameed parameter 반드시 {}를 사용해야 한다. 차후 무지 까 먹는다.
   // syntactic sugar(편의 문법)이라고 부른다.
 
 
