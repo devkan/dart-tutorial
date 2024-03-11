@@ -18,6 +18,7 @@ String introduce2(
 // api등을 이용하거나 하면 해당 파라미터에 null이 들어올수도 있다. 이때 null safety를 해 주지 않으면
 // 컴파일에서는 문제 없으나, 런타임에서 오류가 발생해 다운이 될수 있다. 주의하자.
 // 즉, 위 함수보다 이런 형태로 함수를 사용해야 한다는 것이다.
+// [...]는 position parameter에서 디폴트 값을 지정할때 사용한다.
 
 void main() {
   var results = introduce('kan', 20);

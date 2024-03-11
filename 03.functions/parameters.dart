@@ -18,6 +18,8 @@ String introduce3({
 }) {
   return 'Hello, my name is $name, I am $age years old, I am from $country';
 }
+// required를 사용하면 해당 값을 입력안하면 오류가 발생해 컴파일 자체가 안된다.
+// 그래서 null이 올수 없기 때문에 문제가 해결되는 것이다.
 
 void main() {
   print(introduce('kan', 40, 'korea')); // 일반적인 방법 (positional parameter)
